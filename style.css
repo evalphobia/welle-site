@@ -788,3 +788,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 }
 
+
+.corporate-info p {
+	font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+	'Yu Gothic', YuGothic, 'メイリオ', Meiryo, sans-serif;
+	margin-bottom: 0.5rem;
+}
