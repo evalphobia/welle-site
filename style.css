@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    site_20200310
+	    site_20200614
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -46,6 +46,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-xl{
 	padding:150px 50px;
 }
+.bloc-lg{
+	padding:100px 50px;
+}
 .bloc-md{
 	padding:50px;
 }
@@ -81,6 +84,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-fill-screen .fill-bloc-bottom-edge{
 	align-self: flex-end;
+}
+
+
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-r-edge{
+	background: right no-repeat;
 }
 
 
@@ -269,6 +285,10 @@ button{
 	outline: none!important;
 }
 
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -551,6 +571,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .creativity-wire-black-button:active{
 }
+.h1-bizchool-style{
+	letter-spacing:-0px;
+	font-family:Oswald;
+}
+.h2-style{
+	font-size:24px;
+	width:53.94%;
+}
+.text-span-color{
+	color:#1e4050;
+}
+.h3-style{
+	font-size:20px;
+}
+.wrap-underline{
+	text-decoration:none;
+	border-style:solid;
+	padding-bottom:8px;
+	border-width:0px 0px 2px 0px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -559,6 +599,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-dark-jungle-green{
 	background-color:#232323;
+}
+.bgc-medium-jungle-green{
+	background-color:#18303F;
 }
 .bgc-anti-flash-white{
 	background-color:#F2F2F2;
@@ -572,6 +615,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-anti-flash-white{
 	color:#F2F2F2!important;
 }
+.tc-white{
+	color:#FFFFFF!important;
+}
 .tc-onyx{
 	color:#151515!important;
 }
@@ -581,7 +627,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-dark-jungle-green{
 	color:#232323!important;
 }
-.tc-white{
+
+/* Button colour styles */
+
+.btn-viridian{
+	background:#34826D;
+	color:#FFFFFF!important;
+}
+.btn-viridian:hover{
+	background:#2a6857!important;
 	color:#FFFFFF!important;
 }
 
@@ -596,6 +650,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+.bg-bg-min{
+	background-image:url("img/bg-min.jpg");
+}
+.bg-bizchool-m{
+	background-image:url("img/bizchool-m-1.jpg");
+}
+.bg-bizchool-m{
+	background-image:url("img/bizchool-m-1.jpg");
+}
+.bg-bizchool-m{
+	background-image:url("img/bizchool-m-1.jpg");
+}
 .bg-bg-min{
 	background-image:url("img/bg-min.jpg");
 }
@@ -694,6 +760,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.navbar-brand img{
 		height:20px;
 	}
+	.h2-style{
+		;
+	}
+	.wrap-underline{
+		min-width:350px;
+		max-width:350px;
+	}
+	.text-span-bloc-1-color{
+		color:#ffffff;
+	}
 	
 }
 
@@ -704,6 +780,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-margin-bottom{
 		margin-bottom:20px;
+	}
+	.h2-style{
+	}
+	.wrap-underline{
+		min-width:350px;
 	}
 	
 }
