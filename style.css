@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    site_20200810
+	    site_20201002
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -11,7 +11,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.page-container{overflow-x:hidden;} /* Prevents unwanted scroll space when scroll FX used. */
+.page-container{overflow:hidden;} /* Prevents unwanted scroll space when scroll FX used. */
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
@@ -278,6 +278,9 @@ button{
 -------------------------------------------------------------- */
 .icon-md{
 	font-size:30px!important;
+}
+.icon-xl{
+	font-size:100px!important;
 }
 
 
@@ -564,7 +567,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:54.1%;
 }
 .text-span-color{
-	color:#1e4050;
+	color:#1b1b1b;
 }
 .h3-style{
 	font-size:20px;
@@ -574,6 +577,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-style:solid;
 	padding-bottom:8px;
 	border-width:0px 0px 2px 0px;
+}
+.container-div-style{
+	width:52.55%;
 }
 
 /* = Colour
@@ -586,6 +592,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-medium-jungle-green{
 	background-color:#18303F;
+}
+.bgc-isabelline{
+	background-color:#EEEEEE;
 }
 .bgc-black{
 	background-color:#000000;
@@ -637,6 +646,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#cccccc!important;
 }
 
+/* Icon colour styles */
+
+.icon-fandango{
+	color:#9D2C86!important;
+	border-color:#9D2C86!important;
+}
+.icon-azure{
+	color:#0189EC!important;
+	border-color:#0189EC!important;
+}
+
 /* Bloc image backgrounds */
 
 .bg-bg-min{
@@ -653,6 +673,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-optimatch-bg-all{
 	background-image:url("img/optimatch-bg-all.png");
+}
+.bg-dressnote-logo-black-s{
+	background-image:url("img/dressnote-logo-black-s.png");
 }
 
 
@@ -673,14 +696,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 991px)
 {
     .container{width:100%;}
-    .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .page-container{overflow: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
     .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
     .bloc-group, .bloc-group .bloc{display:block;width:100%;}
 }
 @media (max-width: 767px)
 {
     .page-container{
-        overflow-x: hidden;
+        overflow: hidden;
         position:relative;
     }
     .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
